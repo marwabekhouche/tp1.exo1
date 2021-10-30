@@ -1,0 +1,61 @@
+body{
+    
+}
+img{
+   border-image-source: url("http://placekitten.com/g/250/250") ;
+   border: 10px solid;
+   border-color: red;
+}
+h1{
+   background-color: black;
+}
+ h1,h2{
+    background-color: gray;
+}
+div h2{
+   
+    border: green solid;
+}
+#mon div {
+    color: hotpink;
+  
+    
+}
+#mon>span{
+   border: red solid;
+}
+#mon div>span{
+    background-color: yellow;
+}
+#wed h2:hover{
+   cursor:pointer;
+   color:green;
+    
+}
+#mon h2:hover,#tue h2:hover{
+    cursor:pointer;
+    color:red;
+}
+ h1,h2{
+     text-decoration: none;
+     color:inherit;
+ }
+
+ul :first-of-type{
+    
+ font-weight: bold;
+}
+ul :first-of-type + li {
+    color:red;
+
+}
+#tue span{
+    font-weight: 200%;
+}
+ul :nth-of-type(9){
+    color: blue;
+
+}
+ul :nth-of-type(5n){
+    color:green;
+}
